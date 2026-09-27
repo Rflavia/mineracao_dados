@@ -1,0 +1,20 @@
+# Mineração de Dados Eleitorais 2026 — dependências
+#
+# Local (VS Code): pip install -r requirements.txt dentro do venv do projeto (.venv)
+# Colab: já vem com quase tudo pronto; rode no topo do notebook:
+#   !pip install -q -r requirements.txt
+# (ou, se o notebook estiver isolado, !pip install -q mlxtend — normalmente é o único que falta)
+
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+scipy>=1.11
+mlxtend>=0.23
+pyvis>=0.3   # grafo interativo das regras de associação (Fase 3)
+plotly>=5.18 # gráfico 3D interativo dos anômalos (Fase 4) — já vem pronto no Colab
+nbformat>=4.2 # exigido pelo plotly pra renderizar inline no Jupyter/VS Code (Colab já tem)
+
+# Só necessário para rodar localmente (Colab já tem um kernel próprio)
+ipykernel>=6.29

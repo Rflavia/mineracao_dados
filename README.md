@@ -1,6 +1,15 @@
 # Mineração de Dados Eleitorais 2026 — Grupo 3
 
-Projeto desenvolvido na disciplina de **Mineração de Dados**, utilizando dados públicos do TSE referentes às Eleições 2026.
+Projeto desenvolvido na disciplina de **Aprendizagem de máquina não supervisionado**, da Pós-graduação em Data Science e Inteligência Artificial do SENAC DF. 
+
+Nesse projeto foram utilizados dados públicos disponíveis nos portais do TSE referentes às Eleições 2026.
+
+## Alunos
+[![GitHub](https://badgen.net/badge/GitHub/Rflavia/black?icon=github)](https://github.com/Rflavia) 
+[![GitHub](https://badgen.net/badge/GitHub/clara_cecilia/black?icon=github)](https://github.com/clara-cecilia) 
+[![GitHub](https://badgen.net/badge/GitHub/itagibanetos/black?icon=github)](https://github.com/itagibanetos) 
+[![GitHub](https://badgen.net/badge/GitHub/presley-rocha/black?icon=github)](https://github.com/presley-rocha) 
+[![GitHub](https://badgen.net/badge/GitHub/theminas/black?icon=github)](https://github.com/theminas)
 
 ## 📌 Recorte do grupo
 
@@ -23,3 +32,8 @@ Identificar os perfis dos 1.117 candidatos a Deputado Federal no Sul nas Eleiç�
 | `02_clusterizacao_com_despesa` | Gasto de campanha, faixas por quartil e o **Bisecting K-Means oficial com as 4 variáveis (k=4)** |
 | `03_regras_associacao` | Apriori com as faixas por quartil e o cluster no antecedente e no consequente |
 | `04_deteccao_anomalias` | Isolation Forest global e por cluster, e as conclusões do grupo |
+
+##  📊​ Infográfico | Raio X dos candidatos a Deputado Federal em 2026 na região Sul
+
+<img width="2752" height="1536" alt="Raio-X Candidatos Sul Eleições 2026" src="https://github.com/user-attachments/assets/4b547635-0fa6-4b9d-9a5f-cf9f25676377" />
+

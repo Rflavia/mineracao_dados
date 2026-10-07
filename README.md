@@ -32,6 +32,7 @@ Identificar os perfis dos 1.117 candidatos a Deputado Federal no Sul nas Eleiç�
 | `02_clusterizacao_com_despesa` | Gasto de campanha, faixas por quartil e o **Bisecting K-Means oficial com as 4 variáveis (k=4)** |
 | `03_regras_associacao` | Apriori com as faixas por quartil e o cluster no antecedente e no consequente |
 | `04_deteccao_anomalias` | Isolation Forest global e por cluster, e as conclusões do grupo |
+| `05_eleicoes` | Analise exploratoria sobre os resultados das eleições por perfil |
 
 ##  📊​ Infográfico | Raio X dos candidatos a Deputado Federal em 2026 na região Sul
 

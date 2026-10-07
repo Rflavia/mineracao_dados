@@ -33,7 +33,6 @@ from pathlib import Path
 NOTEBOOKS = [
     ("00_preparacao_dados.ipynb", "Preparação de dados"),
     ("01_analise_descritiva.ipynb", "Análise descritiva"),
-    ("02_clusterizacao.ipynb", "Clusterização exploratória (K-Means e Bisecting, 3 variáveis)"),
     ("02_clusterizacao_com_despesa.ipynb", "Clusterização com gasto de campanha (resultado oficial)"),
     ("03_regras_associacao.ipynb", "Regras de associação"),
     ("04_deteccao_anomalias.ipynb", "Detecção de anomalias"),
@@ -200,7 +199,6 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Junta os notebooks do projeto em um único .ipynb")
     parser.add_argument("--pasta", default=".", help="pasta onde estão os notebooks (padrão: pasta atual)")
     parser.add_argument("--saida", default=None, help="arquivo de saída (padrão: ex. 00_05_notebook_unico.ipynb)")
-    parser.add_argument("--limpar-outputs", action="store_true", help="remove as saídas e gráficos das células")
     parser.add_argument("--sem-indice", action="store_true", help="não cria o índice no início")
     parser.add_argument("--ignorar-ausentes", action="store_true", help="pula notebooks que não existirem")
     args = parser.parse_args()

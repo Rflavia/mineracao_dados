@@ -34,6 +34,11 @@ Identificar os perfis dos 1.117 candidatos a Deputado Federal no Sul nas Eleiç�
 | `04_deteccao_anomalias` | Isolation Forest global e por cluster, e as conclusões do grupo |
 | `05_eleicoes` | Analise exploratoria sobre os resultados das eleições por perfil |
 
+## 🔗Links úteis
+
+https://clustes-como-consequente.netlify.app/
+https://cluster-como-antecendente.netlify.app/
+
 ##  📊​ Infográfico | Raio X dos candidatos a Deputado Federal em 2026 na região Sul
 
 <img width="2752" height="1536" alt="Raio-X Candidatos Sul Eleições 2026" src="https://github.com/user-attachments/assets/4b547635-0fa6-4b9d-9a5f-cf9f25676377" />
